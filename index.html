@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Market Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        var i = 0;
+var txt =
+  '800,000 subscribers + Over 2 million items shipped worldwide.';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById('h3-anim').innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+
+}
+
+document.addEventListener('DOMContentLoaded', typeWriter);
+    
+    </script>
+</head>
+<body>
+    <section class="main"> 
+            <div class="content">
+            <img 
+            src="./images/zen-logo-white.png" 
+            alt="Zen Market logo"
+            class="logo"
+            />
+            <h1>
+                Buy from Japanese Websites. Ship to your home.
+            </h1>
+            <h3 id="h3-anim">
+                
+            </h3>
+            <img 
+            src="./images/image 4.png" 
+            alt="Zen market customer dashboard"
+            class="dashboard"
+            />
+            <img 
+            src="./images/Subtract.svg" 
+            class="svg"
+            />
+        </svg>
+        </div>
+        <div class="content2">
+            <h2>
+                Create your <span>free account</span> today to receive:
+            </h2>
+            <ul>
+                <li>
+                    <span class="li-space">Instant access to thousands of Japanese shops and auctions
+                    </span>
+                </li>
+                <li>
+                    <span class="li-space">Complimentary 300 JPY already added to your account (time-limited)
+                    </span>
+                </li>
+                <li>
+                    <span class="li-space">Up to 45 days of free storage for your items in our warehouse
+                    </span>
+                </li>
+                <li>
+                    <span class="li-space">Consolidation of all your purchases to different shops at no extra cost
+                    </span>
+                </li>
+                <li>
+                    <span class="li-space">Free translation of your questions to Japanese sellers
+                    </span>
+                </li>
+                <li>
+                    <span class="li-space">All the tools and info you need to start shopping as if you were in Japan
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div 
+        class="buttons">
+            <button 
+            class="button-main">
+                Sign up
+            </button>
+
+            <button 
+            class="button-ghost">
+                Learn more
+            </button>
+        </div>
+    </section>
+</body>
+</html>
